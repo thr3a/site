@@ -2,12 +2,9 @@ body {
   background-color: #282c37; }
 
 #wrapper {
+  margin-top: 30px;
   color: #fff;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  width: 100%; }
   #wrapper ul {
     list-style: none;
     padding: 0.5rem; }
@@ -29,4 +26,19 @@ body {
     #wrapper a:active {
       color: #fff; }
   #wrapper .fa {
+    margin-right: 7px;
     font-size: 150%; }
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+#title {
+  text-align: center; }
+
+.col {
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px; }
